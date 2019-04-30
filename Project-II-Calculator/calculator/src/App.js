@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
-import ButtonArray from './components/ButtonComponents/ButtonArray';
+import ButtonList from './components/ButtonComponents/ButtonList';
 
 const App = () => {
   return (
     <div className = 'container'>
       <CalculatorDisplay />
-      <ButtonArray />
+      <ButtonList />
     </div>
   );
 };
