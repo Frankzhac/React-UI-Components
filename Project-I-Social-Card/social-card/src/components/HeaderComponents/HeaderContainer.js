@@ -6,17 +6,15 @@ import ImageThumbnail from './ImageThumbnail';
 import HeaderContent from './HeaderContent';
 
 const HeaderContainer = () => {
-    return (
-        <div className = 'header-container'>
-            <div>
-                <ImageThumbnail />
-            </div>
-            <div className = 'header-text'>
-                <HeaderTitle />
-                <HeaderContent />
-            </div>
-        </div>
-    );
-}
+  return (
+    <header className="card__header">
+      <ImageThumbnail />
+      <div className="card__header__text">
+        <HeaderTitle />
+        <HeaderContent />
+      </div>
+    </header>
+  );
+};
 
 export default HeaderContainer;

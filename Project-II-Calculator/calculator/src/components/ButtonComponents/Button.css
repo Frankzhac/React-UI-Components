@@ -36,7 +36,3 @@
     justify-content: center;
     align-items: center;
 }
-
-button:hover {
-    filter: invert(100%);
-}

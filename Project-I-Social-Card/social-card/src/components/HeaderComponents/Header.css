@@ -1,41 +1,38 @@
 /* All styles for your header Components live here */
-.dot {
-    padding-left: 2px;
-    color: #8C9CA7
-}
-
-.header-container {
+.card__header {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
-.thumbnail {
-    margin-top: 9px;
-    margin-left: 5.5px;
-    padding: 8px;
-    width: 46px;
+.card__header__image {
+    width: 50px;
+    margin-right: 1.5%;
 }
 
-.header-text {
-    margin-top: -15px;
+.card__header__image > img {
+    border-radius: 100%;
 }
 
-.head-title {
-    padding-left: 10px;
+.card__header__text {
+    width: 90%;
 }
 
-.atLambda  {
-    font-size: .80rem;
-    color: #8C9CA7;
-    font-weight: 400;
+.card__header__text__heading {
+    display: flex;
+    align-items: center;
+    margin: 2.5px 0 5px;
 }
 
-.date {
-    font-size: .80rem;
-    color: #8C9CA7;
-    font-weight: 400;
+.card__header__text__heading__profile-name {
+    display: inline;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-right: 1%;
 }
 
-.header-content {
-    margin-top: -15px;
-    padding-left: 11px;
+.card__header__text__heading__info {
+    font-size: 1.35rem;
+    color: #7B8B98;
+    margin: 0 0.5%;
 }
